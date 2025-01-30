@@ -1,0 +1,4 @@
+Olá!
+Estamos a trabalhar ficheiros em Python.
+Bom trabalho.
+Obrigado!
