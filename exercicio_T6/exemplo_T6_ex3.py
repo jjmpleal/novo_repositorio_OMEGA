@@ -9,9 +9,9 @@ contar = 0
 
 try:
     lerFicheiro = open(nomefich,"r+",encoding="utf-8")
-    #print(lerFicheiro.read())    
+    
 except:
-    print("Ficheiro não existe ou a localização errada!!!")
+    print("Altere o nome! O Ficheiro não existe ou a localização errada!!!")
 
 else: #garante que só se executa o código se o ficheiro for aberto com sucesso.
     while True: #inicia um loop infinito para ler linha por linha.
