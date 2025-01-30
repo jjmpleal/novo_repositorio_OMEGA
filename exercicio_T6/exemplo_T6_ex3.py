@@ -11,7 +11,7 @@ try:
     lerFicheiro = open(nomefich,"r+",encoding="utf-8")
     
 except:
-    print("Altere o nome! O Ficheiro não existe ou a localização errada!!!")
+    print("Altere por favor, o nome! O Ficheiro não existe ou a localização errada!!!")
 
 else: #garante que só se executa o código se o ficheiro for aberto com sucesso.
     while True: #inicia um loop infinito para ler linha por linha.
@@ -32,10 +32,6 @@ else: #garante que só se executa o código se o ficheiro for aberto com sucesso
                     #melhores_alunos = [aluno[0]]
                 #elif nota == max:
                  #   melhores_alunos.append(aluno[0])
-                    
-                    
-                    
-                    
                     
                 soma += nota  #acumular as notas 
                 contar += 1   #conta o nº de alunos
